@@ -12,18 +12,48 @@
     gap: 3rem;
 
     &-logo {
-        max-width: 20rem;
+        max-width: 20vw;
         height: auto;
     }
 
     &-brand {
-        background-color: #f17e00;
+        background-color: $blue-color;
         border-radius: 2rem;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
 
     &-menu {
         background-color: $dark-color;
         border-radius: 2rem;
         height: 100%;
+        position: relative;
     }
+
+    &-list {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        text-decoration: none;
+        list-style: none;
+        padding: 2rem 0;
+
+        &-item {
+            padding: 1rem 4rem;
+            font-size: 2rem;
+            font-weight: 800;
+            color: $light-color;
+            cursor: pointer;
+            transition: all .5s ease-in-out;
+
+            &:hover {
+                color: $light-color-1;
+                font-size: 5rem;
+            }
+
+        }
+    }
+
 }
