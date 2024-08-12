@@ -3,15 +3,38 @@
 
 // Color system for the app
 
-$base-color: #3d3d3d;
+// $base-color: #003564;
 
+// $light-color: #f8f9e4;
+// $light-color-1: rgb(179, 178, 178);
+// $light-color-2: #e8e5d6;
+// $light-color-3: #ffffff;
+
+// $blue-color: #00b7e6;
+
+// $brown-color: #ab5f53;
+
+// $dark-color: #3a474e;
+
+
+$base-color: #000000;
 
 $light-color: #f8f9e4;
 $light-color-1: rgb(179, 178, 178);
+$light-color-2: #e8e5d6;
+$light-color-3: #ffffff;
 
-$blue-color: #00b7e6;
+$blue-color: #6daedb;
+$blue-color-1: #23b5d3;
 
-$dark-color: #3a474e;
+$brown-color: #ab5f53;
+
+$emrald-color: #00a3a0;
+$emrald-color-1: #2ebfa5;
+
+$orange-color: #f17e00;
+
+$dark-color: #3d3d3d;
 
 * {
     margin: 0;
@@ -25,6 +48,9 @@ html {
 }
 
 body {
-    background-color: $light-color;
-    padding: 5rem;
+    // background-color: $light-color-2;
+    background-color: $base-color;
+    overflow: hidden;
+    height: 100vh;
+    // padding: 5rem;
 }
