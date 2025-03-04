@@ -8,14 +8,6 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 3rem;
 
-    // &-content {
-
-    //     padding: 0 5rem;
-    //     display: grid;
-    //     grid-template-columns: repeat(3, 1fr);
-    //     grid-template-rows: repeat(3, 30vh);
-    //     gap: 3rem;
-    // }
 
     &--logo {
         max-width: 20vw;
@@ -38,6 +30,7 @@
     }
 
     .grid {
+        padding: 3rem 3rem;
         background-color: $dark-color;
         border-radius: 2rem;
 
@@ -74,5 +67,36 @@
             grid-row: 3 /span 1;
             background-color: $emrald-color-1;
         }
+    }
+}
+
+.welcome {
+    color: $brand-color;
+
+    &__title {
+        font-size: 6rem;
+        font-weight: 700;
+    }
+
+    &__subtitle {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+.savings {
+    color: $brand-color;
+    display: grid;
+    align-items: center;
+    height: 100%;
+
+    &__title {
+        font-size: 5rem;
+        font-weight: 500;
+    }
+
+    &__text {
+        font-size: 2rem;
+        font-weight: 400;
     }
 }
